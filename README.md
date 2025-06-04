@@ -1,75 +1,102 @@
-<!DOCTYPE html><html lang="fa" dir="rtl">
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>کمک به مردم غزه | Help Gaza</title>
   <style>
-    body { font-family: sans-serif; background: #f8f9fa; color: #333; margin: 0; padding: 0; }
-    header { background: #a4161a; color: white; padding: 20px; text-align: center; }
-    section { padding: 20px; max-width: 800px; margin: auto; background: white; border-radius: 12px; margin-top: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
-    h2 { color: #a4161a; }
-    code { background: #eee; padding: 10px; display: block; direction: ltr; font-size: 1.1em; }
-    footer { text-align: center; padding: 20px; font-size: 0.9em; color: #777; }
-    .lang-switch { text-align: center; margin: 10px; }
-    img.qr { width: 200px; margin-top: 10px; }
+    body {
+      font-family: "Tahoma", sans-serif;
+      background-color: #fefefe;
+      color: #222;
+      line-height: 1.8;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #b30000;
+      text-align: center;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .donation-box {
+      background: #f0f0f0;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 1.1em;
+    }
+    .english {
+      direction: ltr;
+      text-align: left;
+      margin-top: 10px;
+      color: #333;
+    }
+    .qr {
+      display: block;
+      margin: 20px auto;
+      max-width: 200px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #777;
+      font-size: 0.9em;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>کمک به مردم غزه | Help Gaza</h1>
-    <p>دست‌های ما، امیدی برای آن‌ها</p>
-  </header>  <div class="lang-switch">
-    <a href="#en">English Version Below</a>
-  </div>  <section>
-    <h2>📢 هدف ما</h2>
-    <p>در این روزهای سخت، مردم غزه نیازمند کمک‌های انسانی هستند. این وب‌سایت ایجاد شده تا به صورت مستقیم کمک‌های مردمی را جمع‌آوری کرده و در اختیار نیازمندان قرار دهد.</p>
-  </section>  <section>
-    <h2>💸 کمک با تتر (USDT - TRC20)</h2>
-    <p>برای کمک مالی با ارز دیجیتال تتر، لطفاً به آدرس زیر در شبکه TRC20 ارسال نمایید:</p>
-    <code>TAZPdj6UJWZdLETSrHy5DiKwiXYtnna4NF</code>
-    <p>یا کد زیر را اسکن کنید:</p>
+
+  <h1>🕊 کمک به مردم غزه | Help Gaza</h1>
+  <p style="text-align:center;"><strong>دست‌های ما، امیدی برای آن‌ها</strong><br><em>Our hands, their hope</em></p>
+
+  <div class="section">
+    <h2>📢 هدف ما | Our Mission</h2>
+    <p>در این روزهای سخت، مردم غزه نیازمند کمک‌های فوری انسانی هستند. این وب‌سایت برای جمع‌آوری مستقیم کمک‌های مردمی و رساندن آن‌ها به نیازمندان واقعی ایجاد شده است.</p>
+    <p class="english">In these difficult times, the people of Gaza urgently need humanitarian aid. This website is created to collect direct donations and deliver them to those in need.</p>
+  </div>
+
+  <div class="section">
+    <h2>💸 کمک با تتر (USDT - TRC20) | Donate with Tether</h2>
+    <p><strong>آدرس کیف پول:</strong><br><code>TAZPdj6UJWZdLETSrHy5DiKwiXYtnna4NF</code></p>
+    <p>📷 یا کد QR زیر را اسکن کنید:</p>
     <img src="USDT_TRC20_QR.png" alt="Tether QR Code" class="qr">
-    <p>🔺 فقط تتر (USDT) روی شبکه TRC20 ارسال شود.</p>
-  </section>  <section>
-    <h2>💳 کمک ریالی (داخل ایران)</h2>
-    <p>در صورت تمایل می‌توانید کمک خود را به شماره کارت زیر واریز نمایید:</p>
-    <div style="background:#f0f0f0; padding:15px; font-size:1.2em; direction:ltr;">
+    <p style="color: red;">🔺 فقط تتر (USDT) روی شبکه TRC20 ارسال شود.</p>
+    <p class="english" style="color: red;">🔺 Send only USDT on the TRC20 network.</p>
+  </div>
+
+  <div class="section">
+    <h2>💳 کمک ریالی | Bank Transfer (Inside Iran)</h2>
+    <div class="donation-box">
       <strong>شماره کارت:</strong> 6104 3387 6702 6715<br>
       <strong>بانک:</strong> ملت<br>
       <strong>به نام:</strong> مومن نورزاد
     </div>
-  </section>  <section>
-    <h2>📞 تماس با ما</h2>
-    <p>برای هماهنگی بیشتر یا دریافت گزارش کمک‌ها:</p>
+    <div class="english">
+      <strong>Card Number:</strong> 6104 3387 6702 6715<br>
+      <strong>Bank:</strong> Mellat<br>
+      <strong>Account Holder:</strong> Momin Noorzad
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📞 تماس با ما | Contact</h2>
     <ul>
-      <li>📱 واتساپ: 0996 296 4153</li>
-      <li>📧 ایمیل: Mominnoorzad1@gmail.com</li>
+      <li>📱 واتساپ:00989962964153 </li>
+      <li>📧 ایمیل: <a href="mailto:Mominnoorzad1@gmail.com">Mominnoorzad1@gmail.com</a></li>
     </ul>
-  </section>  <!-- English Section -->  <section id="en" dir="ltr">
-    <h2>📢 Our Mission</h2>
-    <p>In these difficult times, the people of Gaza need humanitarian help. This website is created to collect direct donations from people and deliver them to those in need.</p><h2>💸 Donate with Tether (USDT - TRC20)</h2>
-<p>Send your USDT (TRC20) donation to the following wallet address:</p>
-<code>TAZPdj6UJWZdLETSrHy5DiKwiXYtnna4NF</code>
-<p>Or scan the QR code below:</p>
-<img src="USDT_TRC20_QR.png" alt="Tether QR Code" class="qr">
-<p>🔺 Please send only USDT on TRC20 network.</p>
+    <div class="english">
+      <ul>
+        <li>📱 WhatsApp: +98 996 296 4153</li>
+        <li>📧 Email: Mominnoorzad1@gmail.com</li>
+      </ul>
+    </div>
+  </div>
 
-<h2>💳 Bank Transfer (Inside Iran)</h2>
-<p>If you're inside Iran, you can donate via bank card:</p>
-<div style="background:#f0f0f0; padding:15px; font-size:1.2em;">
-  <strong>Card Number:</strong> 6104 3387 6702 6715<br>
-  <strong>Bank:</strong> Mellat<br>
-  <strong>Account Holder:</strong> Momin Noorzad
-</div>
-
-<h2>📞 Contact</h2>
-<ul>
-  <li>📱 WhatsApp: +98 996 296 4153</li>
-  <li>📧 Email: Mominnoorzad1@gmail.com</li>
-</ul>
-
-  </section>  <footer>
-    <p>&copy; 2025 Momin Noorzad | سایت برای جمع‌آوری کمک به مردم غزه</p>
+  <footer>
+    © 2025 مومن نورزاد | Created to support the people of Gaza
   </footer>
+
 </body>
 </html>
